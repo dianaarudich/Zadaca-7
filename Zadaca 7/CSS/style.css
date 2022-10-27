@@ -1,0 +1,74 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.blog{
+    text-align: center;
+}
+.naslov{
+    margin-top: 20px;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.linija{
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 5px;
+    width: 120px;
+    background: linear-gradient(to left, rgb(240, 189, 94), rgb(240, 20, 20));
+}
+.paragraf{
+
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 10px;
+    line-height: 2;
+    text-align: center;
+
+}
+.slike{
+    height: 360px;
+    width: 310px;
+    }
+
+.date {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    top: -364px;
+    left: 246px;
+   }
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+.naslov-slike{
+    letter-spacing: 2px;
+    padding: 1px;
+    margin: 5px;
+}
+.flex-container p{
+   color: rgb(160, 153, 153);
+}
+a{
+    color: rgb(255, 153, 0);
+    padding: 10px;
+    display: inline-block;
+}
